@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sample.app.com.notes2">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_notepad"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="splash.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SetAlarmActivity">
+
+        </activity>
+        <activity android:name=".NotesActivity">
+
+        </activity>
+        <activity android:name=".DetailNote">
+
+        </activity>
+
+        <receiver android:name=".AlarmReceiver">
+
+            <intent-filter>
+                <action android:name="sample.app.com.broadcast.CUSTOM_INTENT">
+                </action>
+            </intent-filter>
+
+        </receiver>
+
+    </application>
+
+</manifest>

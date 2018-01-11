@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="5dp">
+
+
+
+
+        <EditText
+
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:ems="10"
+            android:hint="@string/title"
+            android:inputType="textCapSentences"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="top"
+            android:textColor="#000"
+            android:textColorHint="#454545"
+           />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:gravity="top"
+            android:layout_height="300dp"
+            android:inputType="textCapSentences"
+            android:ems="10"
+            android:hint="@string/content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textColorHint="#454545"
+           />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/category1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="5dp"/>
+        <Spinner
+            android:id="@+id/sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+
+
+</LinearLayout>

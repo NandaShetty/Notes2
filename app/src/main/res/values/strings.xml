@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">      Notes</string>
+    <string name="notes">notes</string>
+    <string name="save">save</string>
+    <string name="email1">email1</string>
+    <string name="user_name">user_name</string>
+    <string name="title">Title</string>
+    <string name="your_notes">Your Notes</string>
+    <string name="send_to">Choose App</string>
+
+    <string name="showNote">Show note</string>
+    <string name="editNote">Edit note</string>
+    <string name="removeNote">Remove note</string>
+    <string name="CtxMenuHeader">Choose Action</string>
+    <string name="show">Show</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="category">Category</string>
+    <string name="content">Content</string>
+    <string name="category1">Category:</string>
+    <string name="snooze">snooze</string>
+    <string name="dismiss">dismiss</string>
+    <string name="channel_name">Alarm Received</string>
+    <string name="validation">Please fill the title and/or content field</string>
+
+    <string-array name="select_category">
+        <item>Education</item>
+        <item>Event</item>
+        <item>Shopping</item>
+        <item>Hospital</item>
+        <item>Meeting</item>
+        <item>Work</item>
+    </string-array>
+</resources>
